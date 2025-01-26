@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Levi's Personal Portfolio</title>
+<link rel="stylesheet" href="stylePersonnal.css">
+<script src="https://kit.fontawesome.com/7e43640e6b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+<div class="container">
+    <nav>
+        <img src="IMG_3386_cropped.jpg" alt="logo" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div id="header-text" class="header-text">
+        <p>Web Developer</p>
+        <h1>Hello! <br> I'm <span>Levi</span></h1>
+    </div>
+</div>
+</div>
+<!-------------about---------->
+<div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="Screenshot 2024-12-28 185151.png" alt="Levi">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title"> About Me</h1>
+            <p>Hi! I'm Levi, a web developer based in Canada. I have a passion for web development and love to create for web and mobile devices. I am a self-taught developer and I am always looking for new challenges and opportunities to learn new things. I am a hardworking and dedicated person who is always willing to go the extra mile to achieve my goals. I am proficient in HTML, CSS, JavaScript, and React. I am also familiar with Node.js, Express, and MongoDB. I am always looking to improve my skills and learn new technologies to stay up-to-date with the latest trends in web development.</p>
+            
+            <div class="tab-title">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab ('interests')">Interests</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                    <li><span>CAD</span><br>SolidWorks modeling</li>
+                    <li><span>Food</span><br>Food Food Food</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2024</span><br>Formula One design team</li>
+                    <li><span>2022</span><br>Freelance Artist</li>
+                    <li><span>2006</span><br>Professional baby</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2024-2025</span><br>Queen's Smith Engineering</li>
+                    <li><span>2022-2024</span><br>Iroquois Ridge High School</li>
+                    <li><span>2006</span><br>Womb</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="interests">
+                <ul>
+                    <li><span>Visual Arts</span><br>Sketching and painting</li>
+                    <li><span>Sports</span><br>Badminton pingpong basketball soccer</li>
+                    <li><span>Coding</span><br>Starting</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-------------services--------------->
+<div id="services">
+<div class="container">
+    <h1 class="sub-title">Services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Web Design</h2>
+            <p>I can design beautiful and responsive websites that look great on all devices.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Coding</h2>
+            <p>I click on keyboard and make magic</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-toolbox"></i>
+            <h2>Engineering</h2>
+            <p>I design functional and usful stuff</p>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-------------portfolio--------------->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">Portfolio</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="Screenshot 2024-12-28 185151.png">
+            <div class="layer">
+                <h3>Water Filter APSC 101</h3>
+                <p>Drinkable</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="Screenshot 2024-12-28 185151.png">
+            <div class="layer">
+                <h3>Weather Mapping APSC 103</h3>
+                <p>Heat and air</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="Screenshot 2024-12-28 185151.png">
+            <div class="layer">
+                <h3>Personal Website</h3>
+                <p>This</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+</div>
+
+<!-------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i> LeviGuo741@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i> 647-877-0233</p>
+                <p>Mississauga, ON</p>
+                <div class="social-icons">
+                    <a href="https://github.com/LeviLives" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.linkedin.com/in/levi-guo741/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <a href="Levi-Guo-Resume (1).pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message (Optional)"></textarea>
+                    <br>
+                    <button type="submit" class="btn btn2">Send Message</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <p>&copy; 2025 Levi Guo <i class="fa-solid fa-fire"></i> <br> Made referencing YouTube tutorial found <a href="https://youtu.be/0YFrGy_mzjY" target="_blank">here</a></p>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+// Open close tab for about me section
+var tablinks = document.getElementsByClassName('tab-links');
+var tabcontents = document.getElementsByClassName('tab-contents');
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove('active-link');
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove('active-tab');
+    }
+    event.currentTarget.classList.add('active-link');
+    document.getElementById(tabname).classList.add('active-tab');
+}
+
+//Scroll fade for header and any other elements with class fade-on-scroll
+window.addEventListener('scroll', function() {
+    var headerText = document.getElementById('header-text');
+    var scrollPosition = window.scrollY;
+    var windowHeight = window.innerHeight;
+    var opacity = 1 - (scrollPosition / (windowHeight / 3)); // Adjust the divisor to control the speed of opacity change
+    if (opacity < 0) opacity = 0; // Ensure opacity doesn't go below 0
+    headerText.style.opacity = opacity;
+
+    var elements = document.querySelectorAll('.fade-on-scroll');
+    var scrollPosition = window.scrollY;
+    var windowHeight = window.innerHeight;
+
+    elements.forEach(function(element) {
+        var elementTop = element.getBoundingClientRect().top;
+        var elementHeight = element.offsetHeight;
+        var elementMidpoint = elementTop + (elementHeight / 2);
+
+        // Calculate opacity based on element's position relative to the middle of the viewport
+        var opacity = 1;
+        if (elementMidpoint < windowHeight / 2) {
+            opacity = 1 - ((windowHeight / 2 - elementMidpoint) / (windowHeight));
+        }
+        if (opacity < 0) opacity = 0; // Ensure opacity doesn't go below 0
+        element.style.opacity = opacity;
+    });
+});
+
+
+// Open close side menu
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyqFpclKbmeKGWXtvsDsivaP2Q383-dTKDrL3XZckZwwPQc-eqRXB75CK2U8DTyamC1/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Thank you for your engagement <i class='fa-regular fa-heart'></i>"
+            setTimeout(function(){ 
+                msg.innerHTML = "" 
+            }, 5000);
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
